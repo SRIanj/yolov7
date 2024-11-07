@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Pothole_Segmentation_YOLOv8 - v1 2023-10-20 10-09pm']
+
+roboflow:
+  workspace: yolov7-8terk
+  project: ai-car-5plfz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov7-8terk/ai-car-5plfz/dataset/1
